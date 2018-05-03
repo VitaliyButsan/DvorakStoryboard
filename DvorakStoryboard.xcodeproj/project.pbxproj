@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580D98EC2096468800269FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D98EB2096468800269FB8 /* AppDelegate.swift */; };
+		580D98EE2096468800269FB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D98ED2096468800269FB8 /* ViewController.swift */; };
+		580D98F12096468800269FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580D98EF2096468800269FB8 /* Main.storyboard */; };
+		580D98F32096468800269FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580D98F22096468800269FB8 /* Assets.xcassets */; };
+		580D98F62096468800269FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580D98F42096468800269FB8 /* LaunchScreen.storyboard */; };
+		580D99042096475300269FB8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D99032096475300269FB8 /* KeyboardViewController.swift */; };
+		580D99082096475300269FB8 /* Dvorak_storyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 580D99012096475300269FB8 /* Dvorak_storyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		580D990E2096482200269FB8 /* keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580D990D2096482200269FB8 /* keyboard.storyboard */; };
+		587BEAA7209BB289008E35D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587BEAA6209BB289008E35D1 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580D99062096475300269FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580D98E02096468800269FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580D99002096475300269FB8;
+			remoteInfo = Dvorak_storyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		580D990C2096475300269FB8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				580D99082096475300269FB8 /* Dvorak_storyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		580D98E82096468800269FB8 /* DvorakStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DvorakStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580D98EB2096468800269FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		580D98ED2096468800269FB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		580D98F02096468800269FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		580D98F22096468800269FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580D98F52096468800269FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580D98F72096468800269FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580D99012096475300269FB8 /* Dvorak_storyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Dvorak_storyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		580D99032096475300269FB8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		580D99052096475300269FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580D990D2096482200269FB8 /* keyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = keyboard.storyboard; sourceTree = "<group>"; };
+		587BEAA6209BB289008E35D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580D98E52096468800269FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D98FE2096475300269FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580D98DF2096468800269FB8 = {
+			isa = PBXGroup;
+			children = (
+				587BEAA6209BB289008E35D1 /* Default-568h@2x.png */,
+				580D98EA2096468800269FB8 /* DvorakStoryboard */,
+				580D99022096475300269FB8 /* Dvorak_storyboard */,
+				580D98E92096468800269FB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580D98E92096468800269FB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580D98E82096468800269FB8 /* DvorakStoryboard.app */,
+				580D99012096475300269FB8 /* Dvorak_storyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580D98EA2096468800269FB8 /* DvorakStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				580D98EB2096468800269FB8 /* AppDelegate.swift */,
+				580D98ED2096468800269FB8 /* ViewController.swift */,
+				580D98EF2096468800269FB8 /* Main.storyboard */,
+				580D98F22096468800269FB8 /* Assets.xcassets */,
+				580D98F42096468800269FB8 /* LaunchScreen.storyboard */,
+				580D98F72096468800269FB8 /* Info.plist */,
+			);
+			path = DvorakStoryboard;
+			sourceTree = "<group>";
+		};
+		580D99022096475300269FB8 /* Dvorak_storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				580D99032096475300269FB8 /* KeyboardViewController.swift */,
+				580D990D2096482200269FB8 /* keyboard.storyboard */,
+				580D99052096475300269FB8 /* Info.plist */,
+			);
+			path = Dvorak_storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580D98E72096468800269FB8 /* DvorakStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580D98FA2096468800269FB8 /* Build configuration list for PBXNativeTarget "DvorakStoryboard" */;
+			buildPhases = (
+				580D98E42096468800269FB8 /* Sources */,
+				580D98E52096468800269FB8 /* Frameworks */,
+				580D98E62096468800269FB8 /* Resources */,
+				580D990C2096475300269FB8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580D99072096475300269FB8 /* PBXTargetDependency */,
+			);
+			name = DvorakStoryboard;
+			productName = DvorakStoryboard;
+			productReference = 580D98E82096468800269FB8 /* DvorakStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		580D99002096475300269FB8 /* Dvorak_storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580D99092096475300269FB8 /* Build configuration list for PBXNativeTarget "Dvorak_storyboard" */;
+			buildPhases = (
+				580D98FD2096475300269FB8 /* Sources */,
+				580D98FE2096475300269FB8 /* Frameworks */,
+				580D98FF2096475300269FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dvorak_storyboard;
+			productName = Dvorak_storyboard;
+			productReference = 580D99012096475300269FB8 /* Dvorak_storyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580D98E02096468800269FB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jimmi;
+				TargetAttributes = {
+					580D98E72096468800269FB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					580D99002096475300269FB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 580D98E32096468800269FB8 /* Build configuration list for PBXProject "DvorakStoryboard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 580D98DF2096468800269FB8;
+			productRefGroup = 580D98E92096468800269FB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580D98E72096468800269FB8 /* DvorakStoryboard */,
+				580D99002096475300269FB8 /* Dvorak_storyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580D98E62096468800269FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580D98F62096468800269FB8 /* LaunchScreen.storyboard in Resources */,
+				587BEAA7209BB289008E35D1 /* Default-568h@2x.png in Resources */,
+				580D98F32096468800269FB8 /* Assets.xcassets in Resources */,
+				580D98F12096468800269FB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D98FF2096475300269FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580D990E2096482200269FB8 /* keyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580D98E42096468800269FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580D98EE2096468800269FB8 /* ViewController.swift in Sources */,
+				580D98EC2096468800269FB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D98FD2096475300269FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580D99042096475300269FB8 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580D99072096475300269FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580D99002096475300269FB8 /* Dvorak_storyboard */;
+			targetProxy = 580D99062096475300269FB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		580D98EF2096468800269FB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580D98F02096468800269FB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		580D98F42096468800269FB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580D98F52096468800269FB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580D98F82096468800269FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		580D98F92096468800269FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580D98FB2096468800269FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45JNFF5WM9;
+				INFOPLIST_FILE = DvorakStoryboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JimmiMorrisson.DvorakStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580D98FC2096468800269FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45JNFF5WM9;
+				INFOPLIST_FILE = DvorakStoryboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JimmiMorrisson.DvorakStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		580D990A2096475300269FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45JNFF5WM9;
+				INFOPLIST_FILE = Dvorak_storyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JimmiMorrisson.DvorakStoryboard.Dvorak-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580D990B2096475300269FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45JNFF5WM9;
+				INFOPLIST_FILE = Dvorak_storyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JimmiMorrisson.DvorakStoryboard.Dvorak-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580D98E32096468800269FB8 /* Build configuration list for PBXProject "DvorakStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580D98F82096468800269FB8 /* Debug */,
+				580D98F92096468800269FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580D98FA2096468800269FB8 /* Build configuration list for PBXNativeTarget "DvorakStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580D98FB2096468800269FB8 /* Debug */,
+				580D98FC2096468800269FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580D99092096475300269FB8 /* Build configuration list for PBXNativeTarget "Dvorak_storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580D990A2096475300269FB8 /* Debug */,
+				580D990B2096475300269FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580D98E02096468800269FB8 /* Project object */;
+}
