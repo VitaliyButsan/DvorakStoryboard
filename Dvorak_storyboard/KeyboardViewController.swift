@@ -7,13 +7,11 @@
 //
 
 import UIKit
-// new class for display "corner radius" menu in Attributes inspector, in Xcode
+
+
 
 // new class for display "Round Button" menu in Attributes inspector, in Xcode
 class RoundButton: UIButton {
-    @IBAction func button2(_ sender: UIButton) {
-    }
-
     @IBInspectable var cornerRadius: CGFloat = 0{
         didSet{
             self.layer.cornerRadius = cornerRadius
@@ -31,38 +29,58 @@ class RoundButton: UIButton {
             self.layer.borderColor = borderColor.cgColor
         }
     }
-
-} // END RoundButton class
+} //END RoundButton class
 
 
 class KeyboardViewController: UIInputViewController {
 
-    @IBOutlet var nextKeyboardButton: UIButton!
+    private var proxy: UITextDocumentProxy {
+        return textDocumentProxy
+    }
 
     override func updateViewConstraints() {
         super.updateViewConstraints()
         
         // Add custom view sizing constraints here
     }
-    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Perform custom UI setup here
-        self.nextKeyboardButton = UIButton(type: .system)
-        
-        self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), for: [])
-        self.nextKeyboardButton.sizeToFit()
-        self.nextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
-        
-        self.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: .allTouchEvents)
-        
-        self.view.addSubview(self.nextKeyboardButton)
-        
-        self.nextKeyboardButton.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
-        self.nextKeyboardButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
     }
-    
+
+
+
+
+
+    @IBAction func enter(_ sender: RoundButton) {
+        proxy.insertText("\n")
+    }
+
+    @IBAction func space(_ sender: RoundButton) {
+        proxy.insertText(" ")
+    }
+
+    @IBAction func backSpace(_ sender: RoundButton) {
+        proxy.deleteBackward()
+    }
+
+    @IBAction func nextKeyboard(_ sender: UIButton) {
+        advanceToNextInputMode()
+    }
+
+    @IBAction func lettersButtons(_ sender: UIButton) {
+        let string = sender.titleLabel!.text
+        proxy.insertText("\(string!)")
+    }
+
+
+    @IBAction func dotButton(_ sender: UIButton) {
+        proxy.insertText(".")
+    }
+
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated
@@ -72,18 +90,17 @@ class KeyboardViewController: UIInputViewController {
         // The app is about to change the document's contents. Perform any preparation here.
     }
     
-    override func textDidChange(_ textInput: UITextInput?) {
-        // The app has just changed the document's contents, the document context has been updated.
-        
-        var textColor: UIColor
-        let proxy = self.textDocumentProxy
-        if proxy.keyboardAppearance == UIKeyboardAppearance.dark {
-            textColor = UIColor.white
-        } else {
-            textColor = UIColor.black
-        }
-        self.nextKeyboardButton.setTitleColor(textColor, for: [])
-    }
+//    override func textDidChange(_ textInput: UITextInput?) {
+//        // The app has just changed the document's contents, the document context has been updated.
+//        var textColor: UIColor
+//        let proxy = self.textDocumentProxy
+//        if proxy.keyboardAppearance == UIKeyboardAppearance.dark {
+//            textColor = UIColor.white
+//        } else {
+//            textColor = UIColor.black
+//        }
+//        //self.nextKeyboardButton.setTitleColor(textColor, for: [])
+//    }
 
 } // END KeyboardViewController class
 
