@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOi-Kj-12M" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="61" y="66" width="24" height="37"/>
+                                <rect key="frame" x="61" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -37,27 +37,8 @@
                                     <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="qTy-Rc-Vke"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpD-fD-y4s" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="32" y="66" width="24" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
-                                <state key="normal" title="O">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="Spn-i4-56N"/>
-                                    <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="zFp-DS-LT6"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Mu-JG-ZCf" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="90" y="66" width="24" height="37"/>
+                                <rect key="frame" x="90" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -76,7 +57,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZb-Ju-pf3" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="148" y="66" width="24" height="37"/>
+                                <rect key="frame" x="148" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -95,7 +76,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cj6-zW-rMv" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="177" y="66" width="24" height="37"/>
+                                <rect key="frame" x="177" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -114,7 +95,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzg-A5-8Ss" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="206" y="66" width="24" height="37"/>
+                                <rect key="frame" x="206" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -133,7 +114,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KB0-Ga-wxd" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="235" y="66" width="24" height="37"/>
+                                <rect key="frame" x="235" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -152,7 +133,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yes-Wf-07q" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="293" y="66" width="24" height="37"/>
+                                <rect key="frame" x="293" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -170,7 +151,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eQ-a7-95h" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="119" y="66" width="24" height="37"/>
+                                <rect key="frame" x="119" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -189,7 +170,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txa-Fn-T60" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="264" y="66" width="24" height="37"/>
+                                <rect key="frame" x="264" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -207,44 +188,8 @@
                                     <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="ctv-EM-3Fn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cK8-Hu-mn3" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="47" y="12" width="24" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
-                                <state key="normal" title=",">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="1J2-dW-Ogp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyJ-PG-UEM" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="18" y="12" width="24" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
-                                <state key="normal" title=".">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="dotButton:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="wK6-f3-rfq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mh0-aD-fyk" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="76" y="12" width="24" height="37"/>
+                                <rect key="frame" x="76" y="27" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -263,7 +208,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U07-lC-VSl" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="134" y="12" width="24" height="37"/>
+                                <rect key="frame" x="134" y="27" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -281,7 +226,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88V-bj-99v" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="163" y="12" width="24" height="37"/>
+                                <rect key="frame" x="163" y="27" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -299,27 +244,8 @@
                                     <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="8O4-K0-wQB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x19-jG-o1j" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="192" y="12" width="24" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
-                                <state key="normal" title="C">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="GDx-U9-Wum"/>
-                                    <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="DA6-4e-xzW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zza-5b-3s5" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="221" y="12" width="24" height="37"/>
+                                <rect key="frame" x="221" y="27" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -338,7 +264,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNE-as-ljB" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="279" y="12" width="38" height="38"/>
+                                <rect key="frame" x="279" y="27" width="38" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68131691217422485" green="0.70207387208938599" blue="0.74304217100143433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -357,7 +283,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5t-ip-lC8" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="105" y="12" width="24" height="37"/>
+                                <rect key="frame" x="105" y="27" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -376,7 +302,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxk-o3-l12" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="250" y="12" width="24" height="37"/>
+                                <rect key="frame" x="250" y="27" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -395,7 +321,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lo1-uE-OHz" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="47" y="120" width="24" height="37"/>
+                                <rect key="frame" x="47" y="135" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -413,26 +339,8 @@
                                     <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="NRl-32-8fQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00G-fm-e4E" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="3" y="119" width="39" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.68131691217422485" green="0.70207387208938599" blue="0.74304217100143433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
-                                <state key="normal" title="⇧">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="fb1-25-PUa"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Bv-mn-CBJ" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="76" y="120" width="24" height="37"/>
+                                <rect key="frame" x="76" y="135" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -451,7 +359,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRE-ci-Rnj" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="134" y="120" width="24" height="37"/>
+                                <rect key="frame" x="134" y="135" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -470,7 +378,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ae3-KP-8Iw" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="163" y="120" width="24" height="37"/>
+                                <rect key="frame" x="163" y="135" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -489,7 +397,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxT-1C-092" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="192" y="120" width="24" height="37"/>
+                                <rect key="frame" x="192" y="135" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -508,7 +416,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEQ-Q2-6bQ" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="221" y="120" width="24" height="37"/>
+                                <rect key="frame" x="221" y="135" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -526,27 +434,8 @@
                                     <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="63H-L4-jvh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jag-qD-oiB" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="279" y="120" width="24" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
-                                <state key="normal" title="Z">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="KBI-wc-Nk1"/>
-                                    <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="Of0-tb-z6x"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOd-Ly-sNa" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="105" y="120" width="24" height="37"/>
+                                <rect key="frame" x="105" y="135" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -565,7 +454,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aov-ke-s97" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="250" y="120" width="24" height="37"/>
+                                <rect key="frame" x="250" y="135" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -584,7 +473,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aio-Fq-rT2" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="3" y="66" width="24" height="37"/>
+                                <rect key="frame" x="3" y="81" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
@@ -603,7 +492,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZZ-VM-JZL" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="83" y="174" width="154" height="38"/>
+                                <rect key="frame" x="83" y="189" width="154" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
@@ -615,6 +504,9 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="LcW-Qx-0C1"/>
@@ -622,7 +514,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asK-Qd-3dc" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="43" y="174" width="34" height="38"/>
+                                <rect key="frame" x="43" y="189" width="34" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68131691217422485" green="0.70207387208938599" blue="0.74304217100143433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="34"/>
@@ -641,7 +533,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbe-vk-9qO" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
-                                <rect key="frame" x="243" y="174" width="74" height="38"/>
+                                <rect key="frame" x="243" y="189" width="74" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.68131691217422485" green="0.70207387208938599" blue="0.74304217100143433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
@@ -659,9 +551,177 @@
                                     <action selector="enter:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="DXo-f5-3NK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jag-qD-oiB" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
+                                <rect key="frame" x="280" y="135" width="24" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
+                                <state key="normal" title="Z">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="KBI-wc-Nk1"/>
+                                    <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="Of0-tb-z6x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytU-nc-7T8" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
+                                <rect key="frame" x="3" y="187" width="34" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68131691217422485" green="0.70207387208938599" blue="0.74304217100143433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="123">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="gs9-Ut-hq2"/>
+                                    <action selector="numbers:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="paU-HS-KgZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyJ-PG-UEM" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
+                                <rect key="frame" x="18" y="27" width="24" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
+                                <state key="normal" title=",">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="EVI-YU-Jt3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cK8-Hu-mn3" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
+                                <rect key="frame" x="47" y="27" width="24" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="1J2-dW-Ogp"/>
+                                    <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="kwO-oD-uTj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00G-fm-e4E" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
+                                <rect key="frame" x="3" y="135" width="39" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68131691217422485" green="0.70207387208938599" blue="0.74304217100143433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <state key="normal" title="♝">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="fb1-25-PUa"/>
+                                    <action selector="shift:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="q94-Y6-tFx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x19-jG-o1j" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
+                                <rect key="frame" x="192" y="27" width="24" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="GDx-U9-Wum"/>
+                                    <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="DA6-4e-xzW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpD-fD-y4s" customClass="RoundButton" customModule="Dvorak_storyboard" customModuleProvider="target">
+                                <rect key="frame" x="32" y="81" width="24" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
+                                <state key="normal" title="O">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="button1:" destination="fLk-7j-wUY" eventType="touchUpInside" id="Spn-i4-56N"/>
+                                    <action selector="lettersButtons:" destination="Crc-Gc-Mai" eventType="touchUpInside" id="zFp-DS-LT6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h7I-Js-n82"/>
                     </view>
+                    <connections>
+                        <outlet property="A" destination="aio-Fq-rT2" id="sEo-hW-1s8"/>
+                        <outlet property="B" destination="ae3-KP-8Iw" id="ONw-UT-AUI"/>
+                        <outlet property="C" destination="x19-jG-o1j" id="Fdl-lE-xY1"/>
+                        <outlet property="D" destination="lZb-Ju-pf3" id="3H7-aB-t4k"/>
+                        <outlet property="E" destination="dOi-Kj-12M" id="SC6-WD-EeV"/>
+                        <outlet property="F" destination="U07-lC-VSl" id="JT3-Id-bWM"/>
+                        <outlet property="Ferz" destination="asK-Qd-3dc" id="pEm-pk-imU"/>
+                        <outlet property="G" destination="88V-bj-99v" id="TTc-Yk-7lc"/>
+                        <outlet property="H" destination="cj6-zW-rMv" id="ha8-oJ-Ybk"/>
+                        <outlet property="I" destination="1eQ-a7-95h" id="MQh-xa-t98"/>
+                        <outlet property="J" destination="5Bv-mn-CBJ" id="G99-8n-C8y"/>
+                        <outlet property="K" destination="xOd-Ly-sNa" id="OzW-ur-aFT"/>
+                        <outlet property="L" destination="Yxk-o3-l12" id="vP8-NN-Nfq"/>
+                        <outlet property="M" destination="pxT-1C-092" id="jfd-Dv-gYa"/>
+                        <outlet property="N" destination="KB0-Ga-wxd" id="U1H-WI-TLf"/>
+                        <outlet property="O" destination="lpD-fD-y4s" id="F6K-H8-X0b"/>
+                        <outlet property="P" destination="Mh0-aD-fyk" id="rEw-eE-0ie"/>
+                        <outlet property="Q" destination="lo1-uE-OHz" id="ium-1i-Dbb"/>
+                        <outlet property="R" destination="zza-5b-3s5" id="QoE-4i-e4I"/>
+                        <outlet property="S" destination="txa-Fn-T60" id="bZL-IJ-MaL"/>
+                        <outlet property="T" destination="Pzg-A5-8Ss" id="wHQ-DF-LM5"/>
+                        <outlet property="U" destination="2Mu-JG-ZCf" id="zj6-hd-u8n"/>
+                        <outlet property="V" destination="Aov-ke-s97" id="oJh-cM-EIg"/>
+                        <outlet property="W" destination="nEQ-Q2-6bQ" id="gE6-3f-MqY"/>
+                        <outlet property="X" destination="oRE-ci-Rnj" id="5sX-LX-x9W"/>
+                        <outlet property="Y" destination="X5t-ip-lC8" id="JFx-yH-Dlc"/>
+                        <outlet property="Z" destination="Jag-qD-oiB" id="I0z-i2-BH9"/>
+                        <outlet property="backSpaceOutlet" destination="GNE-as-ljB" id="bYI-Ul-d5w"/>
+                        <outlet property="dash" destination="Yes-Wf-07q" id="HVz-8m-BD3"/>
+                        <outlet property="exclamation" destination="cK8-Hu-mn3" id="PaZ-tW-QKz"/>
+                        <outlet property="numbers" destination="ytU-nc-7T8" id="OUP-MS-lPZ"/>
+                        <outlet property="question" destination="VyJ-PG-UEM" id="kzZ-PX-CPT"/>
+                        <outlet property="shiftOutlet" destination="00G-fm-e4E" id="tzc-26-U8q"/>
+                        <outlet property="spaceOutlet" destination="dZZ-VM-JZL" id="H1b-pr-8en"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xTE-LZ-J36" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="fLk-7j-wUY" userLabel="Exit" sceneMemberID="exit"/>
