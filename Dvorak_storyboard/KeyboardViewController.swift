@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVFoundation
+import AudioToolbox
 
 // new class for display "Round Button" menu in Attributes inspector, in Xcode
 class RoundButton: UIButton {
@@ -289,6 +291,7 @@ class KeyboardViewController: UIInputViewController {
 
     // The button to move between letters to numbers and vice versa.
     @IBAction func numbers(_ sender: RoundButton) {
+        AudioServicesPlayAlertSound(SystemSoundID(1104))
         if flagNumbers == false {
             setNumbersLayout()
             flagNumbers = true
@@ -307,6 +310,7 @@ class KeyboardViewController: UIInputViewController {
 
     // The button to move between character sets in "numbers" and registers sets in "letters".
     @IBAction func shift(_ sender: RoundButton) {
+        AudioServicesPlayAlertSound(SystemSoundID(1104))
         if flagNumbers == false {
             if flagShiftForLetters == true {
                 setLowerCaseLayout()
@@ -332,15 +336,18 @@ class KeyboardViewController: UIInputViewController {
 
     //Sending a message.
     @IBAction func enter(_ sender: RoundButton) {
+        AudioServicesPlayAlertSound(SystemSoundID(1104))
         proxy.insertText("\n")
     }
     // Inserting " ".
     @IBAction func space(_ sender: RoundButton) {
+        AudioServicesPlayAlertSound(SystemSoundID(1104))
         proxy.insertText(" ")
     }
 
     //Deleting one by one symbols and switching to "upper case" in the case of an empty string.
     @IBAction func backSpace(_ sender: RoundButton) {
+        AudioServicesPlayAlertSound(SystemSoundID(1104))
         proxy.deleteBackward()
         if (proxy.documentContextBeforeInput == nil){
             setUpperCaseLayout()
@@ -352,11 +359,13 @@ class KeyboardViewController: UIInputViewController {
 
     // Move to next keyboard.
     @IBAction func nextKeyboard(_ sender: UIButton) {
+        AudioServicesPlayAlertSound(SystemSoundID(1104))
         advanceToNextInputMode()
     }
 
     //Inserting symbols in input line.
     @IBAction func lettersButtons(_ sender: UIButton) {
+        AudioServicesPlayAlertSound(SystemSoundID(1104))
         proxy.insertText("\(sender.titleLabel!.text!)")
         if (flagShiftForLetters == true) && (flagNumbers == false) && (sender.tag != 1) && (flagCapsLock == false) { // For "." sender.tag == 1
             setLowerCaseLayout()
